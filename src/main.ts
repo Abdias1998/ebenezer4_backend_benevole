@@ -7,7 +7,7 @@ async function bootstrap() {
   
   // Configuration CORS pour permettre les requêtes depuis le frontend
   app.enableCors({
-    origin: ['http://localhost:5173', 'https://effervescent-kheer-650888.netlify.app'],
+    origin: ['http://localhost:5173', 'https://ebenezer-benevole.netlify.app'],
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH'],
     allowedHeaders: ['Content-Type', 'Authorization'],
     credentials: true,
