@@ -14,14 +14,14 @@ export class CreateVolunteerDto {
   @IsNotEmpty()
   phone: string;
 
-  @IsString()
-  @IsNotEmpty()
-  denomination: string;
+  // @IsString()
+  // @IsNotEmpty()
+  // denomination: string;
 
   @IsEnum(VolunteerSection)
   section: VolunteerSection;
 
-  @IsBoolean()
-  @IsOptional()
-  isBornAgain?: boolean = false;
+  // @IsBoolean()
+  // @IsOptional()
+  // isBornAgain?: boolean = false;
 }

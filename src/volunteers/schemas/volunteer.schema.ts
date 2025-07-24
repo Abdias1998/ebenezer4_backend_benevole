@@ -22,8 +22,8 @@ export class Volunteer {
   @Prop({ required: true })
   phone: string;
 
-  @Prop({ required: true })
-  denomination: string;
+  // @Prop({ required: true })
+  // denomination: string;
 
   @Prop({ 
     required: true, 
@@ -31,8 +31,8 @@ export class Volunteer {
   })
   section: VolunteerSection;
 
-  @Prop({ default: false })
-  isBornAgain: boolean;
+  // @Prop({ default: false })
+  // isBornAgain: boolean;
 
   @Prop({ default: Date.now })
   registeredAt: Date;
